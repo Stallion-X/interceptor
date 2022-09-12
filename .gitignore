@@ -1,0 +1,11 @@
+/node_modules
+/npm-debug.log
+/dist
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+package-lock.json
+/.vscode
+.env
+web-ext-artifacts/*
+!web-ext-artifacts/.gitkeep

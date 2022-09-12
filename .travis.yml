@@ -1,0 +1,16 @@
+language: node_js
+cache:
+  yarn: true
+  directories:
+    - "$HOME/.nvm"
+
+matrix:
+  fast_finish: true
+  include:
+    - node_js: 12
+      script:
+        - yarn test
+    - node_js: 10
+      script:
+        - yarn test
+  
